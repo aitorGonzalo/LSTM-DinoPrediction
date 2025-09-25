@@ -46,3 +46,16 @@ zuniceratops         | Zurriaceratops       | 0.77
 zuolong              | Zukypalti            | 0.25
 zupaysaurus          | Zuroplosaurus        | 0.67
 zuul                 | Zuroco               | 0.20
+
+
+---
+
+## 📝 Conclusions
+- The LSTM successfully learns patterns in dinosaur names and generates **novel, realistic-sounding names**.  
+- Similarity scores indicate the model balances between memorization and creativity.  
+- Some outputs resemble real names closely, while others diverge, showing both **strengths and limitations** of character-level generation.  
+- Future improvements could include:
+  - Using **deeper architectures** or **transformers** for more realistic results.  
+  - Implementing **temperature sampling** to control creativity.  
+  - Expanding the dataset with more species names for diversity.  
+
